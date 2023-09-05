@@ -14,19 +14,9 @@ class CuentaBancaria {
         return numeroCuenta;
     }
 
-    public String getFechaApertura() {
-        return fechaApertura;
-    }
 
     public double getSaldo() {
         return saldo;
     }
 
-    public void depositar(double monto) {
-        saldo += monto;
-    }
-
-    public void retirar(double monto) {
-        saldo -= monto;
-    }
 }
